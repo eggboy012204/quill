@@ -2,7 +2,7 @@
 
 My very first frontend build, completed by coding along through Dan's full two-part CSS course (~20 hours total) on the Future Fullstack YouTube channel.
 
-I'm keeping this repository as a personal milestone and reminder of where I started. This course is where I built my entire foundation in CSS from basic selectors and the box model to full layouts, responsive design, and component styling—shaping how I approach frontend development today. It also includes a few scratch/test files I used to experiment with concepts along the way.
+I'm keeping this repository as a personal milestone and reminder of where I started. This course is where I built my entire foundation in CSS from basic selectors and the box model to full layouts, responsive design, and component styling, shaping how I approach frontend development today. It also includes a few scratch/test files I used to experiment with concepts along the way.
 
 ## Built With
 - HTML5
