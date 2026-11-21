@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form action="/registration/info" method="post" class="registration">
+      <div class="container">
+        <h3>Registration</h3>
+        <p>Personal Details</p>
+        <div class="form">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <div class="spacer"></div>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="birth-date">Date of Birth</label>
+            <div class="spacer"></div>
+            <input
+              id="birth-date"
+              type="date"
+              name="birth-date"
+              placeholder="Enter birth date"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <div class="spacer"></div>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="number">Mobile number</label>
+            <div class="spacer"></div>
+            <input
+              id="number"
+              type="tel"
+              name="number"
+              placeholder="Enter mobile number"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <div class="spacer"></div>
+            <input
+              id="gender"
+              type="text"
+              name="gender"
+              placeholder="Enter your gender"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="occupation">Occupation</label>
+            <div class="spacer"></div>
+            <input
+              id="occupation"
+              type="text"
+              name="occupation"
+              placeholder="Enter occupation"
+            />
+          </div>
+        </div>
+        <p>Identity Details</p>
+        <div class="form">
+          <div class="form-group">
+            <label for="id">ID Type</label>
+            <div class="spacer"></div>
+            <input type="text" id="id" name="id" placeholder="Enter ID type" />
+          </div>
+
+          <div class="form-group">
+            <label for="id-number">ID Number</label>
+            <div class="spacer"></div>
+            <input
+              type="text"
+              id="id-number"
+              name="id-number"
+              placeholder="Enter ID number"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="issue-authority">Issue Authority</label>
+            <div class="spacer"></div>
+            <input
+              type="text"
+              id="issue-authority"
+              name="issue-authority"
+              placeholder="Enter issue department"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="issue-date">Issue Date</label>
+            <div class="spacer"></div>
+            <input
+              type="text"
+              id="issue-date"
+              name="issue-date"
+              placeholder="Enter ID issue date"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="issue-state">Issue State</label>
+            <div class="spacer"></div>
+            <input
+              type="text"
+              id="issue-state"
+              name="issue-state"
+              placeholder="Enter ID issue state"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="expiry-date">Expiry Date</label>
+            <div class="spacer"></div>
+            <input
+              type="text"
+              id="expiry-date"
+              name="expiry-date"
+              placeholder="Enter ID expiry date"
+            />
+          </div>
+        </div>
+        <button type="submit">Next →</button>
+      </div>
+    </form>
+  </body>
+</html>
